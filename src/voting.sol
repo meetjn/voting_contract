@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 /// @title Voting contract
 /// @author Meet Jain
-/// @dev add candidates to vote, gives access to the admin and checks if voter has already votes or not
+/// @dev add candidates to vote, gives access to the admin and checks if the voter has already voted or not
 
 contract Voting {
     struct Candidate {
